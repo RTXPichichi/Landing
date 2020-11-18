@@ -1,0 +1,101 @@
+/* Write some CSS below */
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+.contenedor-banner{
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/dpbXgTh0Lac/1920x1080');
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	text-align: center;
+ }
+h1{
+	color: white;
+	font-size: 45px; 
+	margin: 0;
+	font-weight: bold;
+}
+.contenedor-banner p{
+	color: white;
+	font-size: 18px;
+}
+button{
+	background-color: red;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	text-decoration: none;
+	transition: .5s;
+}
+.contenedor-tarjetas{
+	width: 970px;
+	margin: 60px auto;
+}
+.cartas-individuales{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.card{
+	background: white;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	padding: 15px;
+	margin: 0px 43px;
+}
+.card img{
+	width: 200px;
+	height: 200px;
+}
+footer{
+	background: gray;
+	color: white;
+	padding: 30px 50px;
+}
+footer p{
+	margin: 0;
+}
+#boton2{
+	background-color: blue;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	text-decoration: none;
+	transition: .5s;
+}
+#link1{
+	text-decoration: none;
+	color: white;
+	transition: .3s;
+}
+#boton3{
+	background-color: blue;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 17px;
+	font-weight: bold;
+	border: none;
+	text-decoration: none;
+	transition: .5s;
+}
+#prox{
+	font-size: 14px;
+	text-align: center;
+}
+#irfin{
+	text-decoration: none;
+	color: white;
+}
